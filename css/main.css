@@ -1,0 +1,402 @@
+body {
+	font-family: "Gotham", Helvetica, Arial, sans-serif;
+	background-color: #fff;
+	color: #333;
+}
+
+h1 { 
+	margin: 0 0 10px 0;
+	font-size: 55px;
+	font-weight: normal;
+}
+
+h2 { 
+	font-size: 35px;
+	margin: 0; 
+	font-weight: normal;
+}
+
+.color-title {
+	color: #fff;
+}
+
+.color-title-light {
+	color: #000412;
+}
+
+h3 { 
+	margin: 0 0 25px 0;
+	text-transform: uppercase;
+	letter-spacing: .12em;
+	color: #777;
+}
+
+p {
+	font-size: 18px;
+}
+
+a { 
+	color:#222; 
+	font-weight: bold; 
+	text-decoration: none;
+}
+
+a:hover { 
+	color: #6d8ac4; 
+	font-weight: bold; 
+}
+
+p {
+	line-height: 1.5em;
+}
+
+/*IMAGES*/
+
+.logo {
+	height: 50%;
+	width: auto;
+	margin: 0 0 10px 0;
+}
+
+/*LAYOUT*/
+
+.intro {
+	margin: 50px 50px 100px 50px;
+}
+
+.desc {
+	width: 500px;
+	max-width: 100%;
+}
+
+.color-desc {
+	color: #fff;
+	font-size: 15px;
+	width: 100%;
+}
+
+.color-desc-light {
+	color: #000412;
+	font-size: 15px;
+	width: 100%;
+}
+
+.npr-red {
+	background: #E0564C;
+	width: 50%;
+	float: left;
+	margin: 0 0 35px 0;
+
+}
+
+.npr-blue {
+	background: #4B83B7;
+	width: 50%;
+}
+
+.npr-grey {
+	background: #000412;
+	width: 50%;
+	float: right;
+}
+
+.npr-music-verydarkblue {
+	background: #18262E;
+	width: 50%;
+	float: left;
+	margin: 0 0 40px 0;
+}
+
+.npr-music-darkblue {
+	background: #283744;
+		width: 50%;
+	float: right;
+}
+
+.npr-music-brightblue {
+	background: #4A90E2;
+	width: 50%;
+}
+
+.npr-music-mustard{
+	background: #f19e14;
+	width: 50%;
+	float: right;
+}
+
+.npr-music-cream {
+	background: #eae8e2;
+	width: 100%;
+	color: #000412;
+}
+
+.npr-grays-verydarkgray {
+	background: #333;
+	width: 50%;
+	float: left;
+}
+
+.npr-grays-darkgray {
+	background: #777;
+	width: 50%;
+	float: right;
+}
+
+.npr-grays-gray{
+	background: #ccc;
+	width: 50%;
+	float: right;
+
+}
+
+.npr-grays-graytwo{
+	background: #ddd;
+	width: 50%;
+	float: right;
+}
+
+.npr-grays-graythree {
+	background: #e0e0e0;
+	width: 50%;
+	float: left;
+	color: #000412;
+	margin: 0 0 40px 0;
+}
+
+.npr-grays-lightgray{
+	background: #f1f1f1;
+	width: 50%;
+	float: right;
+}
+
+.npr-grays-bluegray {
+	background: #c0c5ce;
+	width: 50%;
+	color: #000412;
+}
+
+.values {
+	background: rgba(0, 0, 0, 0.1);
+	width: 100%;
+
+}
+
+.values-dark {
+	background: rgba(35, 35, 35, 1);
+}
+
+.color-content {
+	padding: 40px;
+}
+
+.colors {
+	margin: 50px 50px 120px 50px;
+}
+
+.light {
+	color: #000412;
+}
+
+.hr {
+	background-color: #000;
+	color: #000;
+	height: 3px;
+	padding: 50px 0;
+}
+
+.clear {
+	clear: both;
+}
+
+.value-title {
+	padding: 0 17px 0 0;
+	font-weight: bold;
+	color: rgba(255, 255, 255, 0.4);
+	font-size: 12px;
+}
+
+.value-title-light {
+	padding: 0 17px 0 0;
+	font-weight: bold;
+	color: rgba(0, 0, 23, 0.6);
+	font-size: 12px;
+}
+
+.numbers {
+	padding: 0 35px 0 0;
+}
+
+/*BUTTONS*/
+
+.copy-red {
+	border: 1px #fff solid;
+	background: none;
+	padding: 15px 15px;
+	font-size: 12px;
+	color: #fff;
+	font-family: gotham;
+	text-transform: uppercase;
+	letter-spacing: .25em;
+	outline: none;
+}
+
+.copy-button-light {
+	border: 1px #000412 solid;
+	background: none;
+	padding: 15px 15px;
+	font-size: 12px;
+	color: #000412;
+	font-family: gotham;
+	text-transform: uppercase;
+	letter-spacing: .25em;
+	outline: none;
+}
+
+
+
+/* Responsive */
+
+@media screen and (min-width: 1200px) {
+
+.npr-red {
+	float: left;
+	width: 33%;
+	margin: 0 0 50px 0;
+	padding: 0;
+
+}
+
+.npr-blue {
+	float: right;
+	width: 33%;
+	margin: 0;
+	padding: 0;
+}
+
+.npr-grey {
+	float: right;
+	width: 34%;
+	margin: 0;
+	padding: 0;
+}
+
+.values {
+	line-height: 1.5em;
+}
+
+.values-dark {
+	line-height: 1.5em;
+}
+
+}
+
+@media screen and (max-width: 750px) {
+
+.npr-red {
+	float: none;
+	width: 100%;
+	margin-bottom: 20px;
+
+}
+
+.npr-blue {
+	float: none;
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.npr-grey {
+	float: none;
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.npr-music-verydarkblue {
+	float: none;
+	width: 100%;
+	margin-bottom: 0;
+	margin-bottom: 20px;
+}
+
+.npr-music-darkblue {
+	float: none;
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.npr-music-brightblue {
+	float: none;
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.npr-music-mustard{
+	float: none;
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.npr-music-cream {
+	float: none;
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.npr-grays-verydarkgray {
+	float: none;
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.npr-grays-darkgray {
+	float: none;
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.npr-grays-graytwo {
+	float: none;
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.npr-grays-gray{
+	float: none;
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.npr-grays-graythree {
+	float: none;
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.npr-grays-lightgray {
+	float: none;
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.npr-grays-bluegray {
+	float: none;
+	width: 100%;
+}
+
+.colors {
+	margin: 20px 20px 70px 20px;
+}
+
+.intro {
+	margin: 20px 20px 70px 20px;
+}
+
+.values {
+	line-height: 1.5em;
+}
+
+.values-dark {
+	line-height: 1.5em;
+}
+
+}
