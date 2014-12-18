@@ -97,7 +97,7 @@ float: left;
 
 .section-wrapper {
 margin: 75px 0 0 0;
-width: 800px;
+width: 1100px;
 }
 
 .section-description {
@@ -305,8 +305,6 @@ padding: 30px 0 0 0;
 
 
 @media screen and (max-width: 750px) {
-
-.
 
 .npr-red {
 	float: none;
