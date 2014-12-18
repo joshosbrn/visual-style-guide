@@ -2,26 +2,31 @@ body {
 	font-family: "Gotham SSm", Helvetica, Arial, sans-serif;
 	background-color: #fff;
 	color: #333;
+	max-width: 1100px;
+	margin: 0 auto;
 }
 
 h1 { 
-	margin: 0 0 10px 0;
-	font-size: 55px;
-	font-weight: normal;
+	margin: 5px 0 5px 0;
+	font-size: 45px;
+	font-weight: 400;
 }
 
 h2 { 
 	font-size: 35px;
-	margin: 0; 
-	font-weight: normal;
+	margin: 0;
+	padding: 0; 
+	font-weight: 700;
 }
 
 .color-title {
 	color: #fff;
+	font-weight: 400;
 }
 
 .color-title-light {
 	color: #000412;
+	font-weight: 400;
 }
 
 h3 { 
@@ -32,7 +37,9 @@ h3 {
 }
 
 p {
+	font-style: Georgia;
 	font-size: 18px;
+	margin: 10px 0;
 }
 
 a { 
@@ -50,17 +57,64 @@ p {
 	line-height: 1.5em;
 }
 
+hr {
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+li {
+	display: inline;
+	margin: 0 15px 0 0;
+}
+
+.navigation {
+	float: right;
+}
+
 /*IMAGES*/
 
 .logo {
-	height: 50%;
-	width: auto;
-	margin: 0 0 10px 0;
+
+}
+
+.section-icon {
+margin: 0 25px 0 0;
+height: 200px;
+width: auto;
+float: left;
 }
 
 /*LAYOUT*/
 
+.section-wrapper {
+margin: 75px 0 0 0;
+width: 800px;
+}
+
+.section-description {
+padding: 30px 0 0 0;
+
+}
+
+.section {
+	width: 100%;
+	margin: 60px 0 100px 0;
+}
+
 .intro {
+	width: 30%;
+}
+
+.content {
 	margin: 50px 50px 100px 50px;
 }
 
@@ -126,7 +180,7 @@ p {
 
 .npr-music-cream {
 	background: #eae8e2;
-	width: 100%;
+	width: 50%;
 	color: #000412;
 }
 
@@ -197,13 +251,6 @@ p {
 	color: #000412;
 }
 
-.hr {
-	background-color: #000;
-	color: #000;
-	height: 3px;
-	padding: 50px 0;
-}
-
 .clear {
 	clear: both;
 }
@@ -256,41 +303,10 @@ p {
 
 /* Responsive */
 
-@media screen and (min-width: 1200px) {
-
-.npr-red {
-	float: left;
-	width: 33%;
-	margin: 0 0 50px 0;
-	padding: 0;
-
-}
-
-.npr-blue {
-	float: right;
-	width: 33%;
-	margin: 0;
-	padding: 0;
-}
-
-.npr-grey {
-	float: right;
-	width: 34%;
-	margin: 0;
-	padding: 0;
-}
-
-.values {
-	line-height: 1.5em;
-}
-
-.values-dark {
-	line-height: 1.5em;
-}
-
-}
 
 @media screen and (max-width: 750px) {
+
+.
 
 .npr-red {
 	float: none;
